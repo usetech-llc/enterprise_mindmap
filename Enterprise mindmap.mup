@@ -1,0 +1,1115 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Enterprise\nData",
+      "id": 1,
+      "attr": {
+        "position": [
+          -79,
+          -76,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#00CCFF",
+          "fontMultiplier": 2
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "Protect",
+          "id": 2,
+          "attr": {
+            "style": {
+              "backgroundColor": "#00CCFF",
+              "fontMultiplier": 1.75
+            },
+            "position": [
+              205.17187499999977,
+              -285.1875000000002,
+              11
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "Data Privacy",
+              "id": 8,
+              "attr": {
+                "style": {
+                  "backgroundColor": "#00CCFF",
+                  "fontMultiplier": 1.25
+                },
+                "position": [
+                  115.54687499999977,
+                  -304.4531250000001,
+                  7
+                ]
+              },
+              "ideas": {
+                "1": {
+                  "title": "Authentication",
+                  "id": 15,
+                  "attr": {
+                    "style": {
+                      "text": {
+                        "color": "#0000FF"
+                      },
+                      "fontMultiplier": 1.25
+                    }
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Identity Management",
+                      "id": 17
+                    },
+                    "2": {
+                      "title": "Key Management",
+                      "id": 18,
+                      "ideas": {
+                        "1": {
+                          "title": "HSM Integration",
+                          "id": 19
+                        }
+                      }
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Authorization",
+                  "id": 16,
+                  "attr": {
+                    "style": {
+                      "text": {
+                        "color": "#0000FF"
+                      },
+                      "fontMultiplier": 1.25
+                    }
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Peer Roles",
+                      "id": 20,
+                      "ideas": {
+                        "1": {
+                          "title": "Public",
+                          "id": 21,
+                          "attr": {
+                            "style": {
+                              "backgroundColor": "#FFFFFF",
+                              "text": {
+                                "color": "#C0C0C0"
+                              }
+                            }
+                          }
+                        },
+                        "2": {
+                          "title": "Customer",
+                          "id": 22,
+                          "attr": {
+                            "style": {
+                              "backgroundColor": "#FFFFFF",
+                              "text": {
+                                "color": "#C0C0C0"
+                              }
+                            }
+                          }
+                        },
+                        "3": {
+                          "title": "Internal",
+                          "id": 23,
+                          "attr": {
+                            "style": {
+                              "backgroundColor": "#FFFFFF",
+                              "text": {
+                                "color": "#C0C0C0"
+                              }
+                            }
+                          }
+                        },
+                        "4": {
+                          "title": "Executive",
+                          "id": 24,
+                          "attr": {
+                            "style": {
+                              "backgroundColor": "#FFFFFF",
+                              "text": {
+                                "color": "#C0C0C0"
+                              }
+                            }
+                          }
+                        },
+                        "5": {
+                          "title": "Regulation and Government",
+                          "id": 25,
+                          "attr": {
+                            "style": {
+                              "backgroundColor": "#FFFFFF",
+                              "text": {
+                                "color": "#C0C0C0"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "Disaster Recovery",
+              "id": 11,
+              "attr": {
+                "style": {
+                  "text": {
+                    "color": "#0000FF"
+                  },
+                  "fontMultiplier": 1.25
+                },
+                "position": [
+                  205,
+                  -2,
+                  6
+                ]
+              }
+            },
+            "3": {
+              "title": "Network Security",
+              "id": 12,
+              "attr": {
+                "style": {
+                  "text": {
+                    "color": "#0000FF"
+                  },
+                  "fontMultiplier": 1.25
+                },
+                "position": [
+                  442.7031249999998,
+                  177.7343749999999,
+                  8
+                ]
+              },
+              "ideas": {
+                "1": {
+                  "title": "Application Firewall",
+                  "id": 26
+                },
+                "2": {
+                  "title": "Monitoring Tools",
+                  "id": 29
+                },
+                "3": {
+                  "title": "Hardened Images\n(AWZ, Azure, etc.)",
+                  "id": 30
+                },
+                "4": {
+                  "title": "Security Patching",
+                  "id": 31
+                },
+                "5": {
+                  "title": "Audit Documentation",
+                  "id": 32
+                }
+              }
+            },
+            "4": {
+              "title": "Workstation Security",
+              "id": 13,
+              "attr": {
+                "style": {
+                  "text": {
+                    "color": "#0000FF"
+                  },
+                  "fontMultiplier": 1.25
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Secure Boot",
+                  "id": 33,
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#FFFFFF",
+                      "text": {
+                        "color": "#C0C0C0"
+                      }
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Trusted Compute",
+                  "id": 34
+                }
+              }
+            }
+          }
+        },
+        "11": {
+          "title": "Share",
+          "id": 3,
+          "ideas": {
+            "1": {
+              "title": "Inter-Ledger Protocol (ICMP)",
+              "id": 6,
+              "attr": {
+                "style": {
+                  "backgroundColor": "#FFFF99"
+                }
+              }
+            },
+            "2": {
+              "title": "Bridges",
+              "id": 7,
+              "attr": {
+                "style": {
+                  "backgroundColor": "#FFFF99"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "backgroundColor": "#00CCFF",
+              "fontMultiplier": 1.75
+            },
+            "position": [
+              223,
+              144,
+              8
+            ]
+          }
+        },
+        "21": {
+          "title": "Comply",
+          "id": 5,
+          "attr": {
+            "position": [
+              504,
+              276,
+              10
+            ],
+            "style": {
+              "backgroundColor": "#00CCFF",
+              "fontMultiplier": 1.75
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Secure Data Audit",
+              "id": 87,
+              "attr": {
+                "style": {
+                  "text": {
+                    "color": "#0000FF"
+                  },
+                  "fontMultiplier": 1.25
+                }
+              }
+            },
+            "2": {
+              "title": "Data Residency",
+              "id": 88,
+              "ideas": {
+                "1": {
+                  "title": "Deployment Zones",
+                  "id": 89
+                },
+                "2": {
+                  "title": "Secure Channels",
+                  "id": 90
+                }
+              },
+              "attr": {
+                "style": {
+                  "text": {
+                    "color": "#0000FF"
+                  },
+                  "fontMultiplier": 1.25
+                }
+              }
+            }
+          }
+        },
+        "-10": {
+          "title": "Use",
+          "id": 4,
+          "attr": {
+            "position": [
+              159,
+              -86,
+              1
+            ],
+            "style": {
+              "backgroundColor": "#00CCFF",
+              "fontMultiplier": 1.75
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Availability",
+              "id": 35,
+              "attr": {
+                "style": {
+                  "backgroundColor": "#00CCFF",
+                  "fontMultiplier": 1.5
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Monitoring Tools",
+                  "id": 39,
+                  "attr": {
+                    "style": {
+                      "text": {
+                        "color": "#0000FF"
+                      },
+                      "fontMultiplier": 1.25
+                    }
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Performance",
+                      "id": 42,
+                      "ideas": {
+                        "1": {
+                          "title": "TPM",
+                          "id": 43
+                        },
+                        "2": {
+                          "title": "Latency",
+                          "id": 44
+                        },
+                        "3": {
+                          "title": "Resource Utilization",
+                          "id": 45
+                        },
+                        "4": {
+                          "title": "Network Health",
+                          "id": 46
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "fontMultiplier": 1.25
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "Block Explorer",
+                      "id": 47,
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#FFFF99",
+                          "fontMultiplier": 1.25
+                        }
+                      }
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Private Data Dissemination",
+                  "id": 41,
+                  "attr": {
+                    "style": {
+                      "text": {
+                        "color": "#0000FF"
+                      },
+                      "fontMultiplier": 1.25
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "Scalability",
+              "id": 36,
+              "attr": {
+                "style": {
+                  "backgroundColor": "#00CCFF",
+                  "fontMultiplier": 1.5
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Deployment On Demand",
+                  "id": 48,
+                  "ideas": {
+                    "1": {
+                      "title": "IaaS",
+                      "id": 49
+                    },
+                    "2": {
+                      "title": "Data Centers",
+                      "id": 50
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "text": {
+                        "color": "#0000FF"
+                      },
+                      "fontMultiplier": 1.25
+                    }
+                  }
+                },
+                "2": {
+                  "title": "High Load Optimization",
+                  "id": 99,
+                  "attr": {
+                    "style": {
+                      "text": {
+                        "color": "#0000FF"
+                      },
+                      "backgroundColor": "#FFFFFF",
+                      "fontMultiplier": 1.25
+                    }
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Blockchain Optimized File System",
+                      "id": 100,
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#FFFFFF",
+                          "text": {
+                            "color": "#C0C0C0"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "3": {
+              "title": "Applications",
+              "id": 37,
+              "attr": {
+                "style": {
+                  "backgroundColor": "#00CCFF",
+                  "fontMultiplier": 1.5
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Toolchain (IDE) Integration",
+                  "id": 51,
+                  "ideas": {
+                    "1": {
+                      "title": "VS Code Plugin",
+                      "id": 52,
+                      "ideas": {
+                        "1": {
+                          "title": "Smart Contracts",
+                          "id": 53,
+                          "ideas": {
+                            "1": {
+                              "title": "Create",
+                              "id": 54
+                            },
+                            "2": {
+                              "title": "Deploy",
+                              "id": 55
+                            },
+                            "3": {
+                              "title": "Instantiate",
+                              "id": 56
+                            },
+                            "4": {
+                              "title": "Interact",
+                              "id": 57
+                            }
+                          },
+                          "attr": {
+                            "position": [
+                              65.96875,
+                              -201.1718749999999,
+                              1
+                            ]
+                          }
+                        },
+                        "2": {
+                          "title": "UI",
+                          "id": 58
+                        },
+                        "3": {
+                          "title": "Backend",
+                          "id": 59
+                        },
+                        "4": {
+                          "title": "Developer Network",
+                          "id": 60,
+                          "attr": {
+                            "position": [
+                              228.609375,
+                              29.296875,
+                              2
+                            ]
+                          }
+                        },
+                        "5": {
+                          "title": "Deployment Automation",
+                          "id": 62,
+                          "attr": {
+                            "style": {
+                              "width": 80
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "fontMultiplier": 1.25
+                        },
+                        "position": [
+                          131.359375,
+                          -151.65625000000023,
+                          1
+                        ]
+                      }
+                    },
+                    "2": {
+                      "title": "Android Studio",
+                      "id": 64,
+                      "attr": {
+                        "style": {
+                          "text": {
+                            "color": "#C0C0C0"
+                          },
+                          "backgroundColor": "#FFFFFF"
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "NetBeans",
+                      "id": 65,
+                      "attr": {
+                        "style": {
+                          "text": {
+                            "color": "#C0C0C0"
+                          },
+                          "backgroundColor": "#FFFFFF"
+                        }
+                      }
+                    },
+                    "4": {
+                      "title": "Eclipse",
+                      "id": 66,
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#FFFFFF",
+                          "text": {
+                            "color": "#C0C0C0"
+                          }
+                        }
+                      }
+                    },
+                    "5": {
+                      "title": "XCode",
+                      "id": 67,
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#FFFFFF",
+                          "text": {
+                            "color": "#C0C0C0"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "text": {
+                        "color": "#0000FF"
+                      },
+                      "fontMultiplier": 1.25
+                    },
+                    "position": [
+                      466,
+                      -232,
+                      1
+                    ]
+                  }
+                },
+                "2": {
+                  "title": "Database Support",
+                  "id": 68,
+                  "attr": {
+                    "style": {
+                      "text": {
+                        "color": "#0000FF"
+                      },
+                      "fontMultiplier": 1.25
+                    }
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "SQL Server",
+                      "id": 69
+                    },
+                    "2": {
+                      "title": "PostgreSQL",
+                      "id": 70,
+                      "attr": {
+                        "style": {
+                          "backgroundColor": "#FFFF99"
+                        }
+                      },
+                      "ideas": {}
+                    },
+                    "3": {
+                      "title": "Oracle DB",
+                      "id": 71
+                    }
+                  }
+                },
+                "3": {
+                  "title": "UI Framework",
+                  "id": 73,
+                  "attr": {
+                    "style": {
+                      "text": {
+                        "color": "#0000FF"
+                      },
+                      "fontMultiplier": 1.25
+                    }
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "React (Aragon)",
+                      "id": 74
+                    },
+                    "2": {
+                      "title": "VueJS (Hyperledger / IBM)",
+                      "id": 75
+                    }
+                  }
+                },
+                "4": {
+                  "title": "Transactions",
+                  "id": 76,
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#FFFF99",
+                      "fontMultiplier": 1.25
+                    }
+                  }
+                },
+                "5": {
+                  "title": "Contracts",
+                  "id": 77,
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#00CCFF",
+                      "fontMultiplier": 1.25
+                    },
+                    "position": [
+                      284,
+                      129,
+                      2
+                    ]
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Smart Contract Engines",
+                      "id": 79,
+                      "ideas": {
+                        "1": {
+                          "title": "Compilers",
+                          "id": 80,
+                          "ideas": {
+                            "1": {
+                              "title": "Ink",
+                              "id": 81
+                            },
+                            "2": {
+                              "title": "Go",
+                              "id": 82
+                            },
+                            "3": {
+                              "title": "JS",
+                              "id": 83
+                            },
+                            "4": {
+                              "title": "C++",
+                              "id": 84
+                            },
+                            "5": {
+                              "title": "...",
+                              "id": 85
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "text": {
+                                "color": "#0000FF"
+                              },
+                              "fontMultiplier": 1.25
+                            }
+                          }
+                        },
+                        "2": {
+                          "title": "VM",
+                          "id": 86,
+                          "attr": {
+                            "style": {
+                              "backgroundColor": "#FFFF99",
+                              "fontMultiplier": 1.25
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "fontMultiplier": 1.25
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "title": "Category",
+      "id": 92,
+      "attr": {
+        "position": [
+          -914,
+          -794,
+          1
+        ],
+        "style": {
+          "backgroundColor": "#00CCFF"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "Already Done In Polkadot",
+          "id": 93,
+          "attr": {
+            "style": {
+              "backgroundColor": "#FFFF99"
+            }
+          }
+        },
+        "11": {
+          "title": "Available In Competitors",
+          "id": 95
+        },
+        "-1": {
+          "title": "Not Available At all, but Needed",
+          "id": 96,
+          "attr": {
+            "style": {
+              "backgroundColor": "#FFFFFF",
+              "text": {
+                "color": "#C0C0C0"
+              }
+            }
+          }
+        },
+        "-2": {
+          "title": "Some Doable Units of Work",
+          "id": 97,
+          "attr": {
+            "style": {
+              "text": {
+                "color": "#0000FF"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "Enterprise\nData",
+  "links": [],
+  "theme": {
+    "name": "MindMup Default",
+    "node": [
+      {
+        "name": "default",
+        "cornerRadius": 10,
+        "backgroundColor": "#E0E0E0",
+        "border": {
+          "type": "surround",
+          "line": {
+            "color": "#707070",
+            "width": 1,
+            "style": "solid"
+          }
+        },
+        "shadow": [
+          {
+            "color": "#070707",
+            "opacity": 0.4,
+            "offset": {
+              "width": 2,
+              "height": 2
+            },
+            "radius": 2
+          }
+        ],
+        "text": {
+          "margin": 5,
+          "alignment": "center",
+          "maxWidth": 146,
+          "color": "#4F4F4F",
+          "lightColor": "#EEEEEE",
+          "darkColor": "#000000",
+          "font": {
+            "lineSpacing": 4.5,
+            "lineSpacingPx": 6,
+            "size": 9,
+            "sizePx": 12,
+            "weight": "bold"
+          }
+        },
+        "connections": {
+          "default": {
+            "h": "center",
+            "v": "center"
+          },
+          "from": {
+            "horizontal": {
+              "h": "nearest-inset",
+              "v": "center"
+            }
+          },
+          "to": {
+            "h": "nearest",
+            "v": "center"
+          }
+        },
+        "decorations": {
+          "height": 20,
+          "edge": "top",
+          "overlap": true,
+          "position": "end",
+          "margin": 2,
+          "label": {
+            "border": 1,
+            "cornerRadius": 11,
+            "margin": 2,
+            "font": {
+              "lineSpacing": 0,
+              "lineSpacingPx": 0,
+              "size": 9,
+              "sizePx": 12,
+              "weight": "bold"
+            }
+          },
+          "cornerRadius": 12,
+          "backgroundColor": "#22aae0",
+          "opacity": 0.8,
+          "color": "#ffffff"
+        }
+      },
+      {
+        "name": "level_1",
+        "backgroundColor": "#22AAE0"
+      },
+      {
+        "name": "activated",
+        "border": {
+          "type": "surround",
+          "line": {
+            "color": "#22AAE0",
+            "width": 3,
+            "style": "dotted"
+          }
+        }
+      },
+      {
+        "name": "level_1.activated",
+        "border": {
+          "type": "surround",
+          "line": {
+            "color": "#EEEEEE",
+            "width": 3,
+            "style": "dotted"
+          }
+        }
+      },
+      {
+        "name": "selected",
+        "shadow": [
+          {
+            "color": "#000000",
+            "opacity": 0.9,
+            "offset": {
+              "width": 2,
+              "height": 2
+            },
+            "radius": 2
+          }
+        ]
+      },
+      {
+        "name": "collapsed",
+        "shadow": [
+          {
+            "color": "#888888",
+            "offset": {
+              "width": 0,
+              "height": 1
+            },
+            "radius": 0
+          },
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 3
+            },
+            "radius": 0
+          },
+          {
+            "color": "#888888",
+            "offset": {
+              "width": 0,
+              "height": 4
+            },
+            "radius": 0
+          },
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 6
+            },
+            "radius": 0
+          },
+          {
+            "color": "#888888",
+            "offset": {
+              "width": 0,
+              "height": 7
+            },
+            "radius": 0
+          }
+        ]
+      },
+      {
+        "name": "collapsed.selected",
+        "shadow": [
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 1
+            },
+            "radius": 0
+          },
+          {
+            "color": "#888888",
+            "offset": {
+              "width": 0,
+              "height": 3
+            },
+            "radius": 0
+          },
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 6
+            },
+            "radius": 0
+          },
+          {
+            "color": "#555555",
+            "offset": {
+              "width": 0,
+              "height": 7
+            },
+            "radius": 0
+          },
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 10
+            },
+            "radius": 0
+          },
+          {
+            "color": "#333333",
+            "offset": {
+              "width": 0,
+              "height": 11
+            },
+            "radius": 0
+          }
+        ]
+      }
+    ],
+    "connector": {
+      "default": {
+        "type": "quadratic",
+        "controlPoint": {
+          "above": {
+            "width": 0,
+            "height": 0.75
+          },
+          "below": {
+            "width": 0,
+            "height": 0.75
+          },
+          "horizontal": {
+            "width": 0,
+            "height": 0
+          }
+        },
+        "label": {
+          "position": {
+            "ratio": 0.5
+          },
+          "backgroundColor": "transparent",
+          "borderColor": "transparent",
+          "text": {
+            "color": "#4F4F4F",
+            "font": {
+              "size": 9,
+              "sizePx": 12,
+              "weight": "normal"
+            }
+          }
+        },
+        "line": {
+          "color": "#707070",
+          "width": 1
+        }
+      }
+    },
+    "link": {
+      "default": {
+        "line": {
+          "color": "red",
+          "lineStyle": "dashed",
+          "width": 1
+        },
+        "label": {
+          "position": {
+            "ratio": 0.5
+          },
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "text": {
+            "color": "#4F4F4F",
+            "font": {
+              "size": 9,
+              "sizePx": 12,
+              "weight": "normal"
+            }
+          }
+        }
+      }
+    }
+  }
+}
